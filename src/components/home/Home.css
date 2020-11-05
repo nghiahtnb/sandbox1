@@ -1,0 +1,29 @@
+body {
+  background-image: url("./assets/landing_page.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 800px;
+}
+
+.logo-container {
+}
+
+.logo {
+  width: 8em;
+  cursor: pointer;
+  margin: 20px 50px;
+}
+
+@media screen and (max-width: 480px) {
+  body {
+    background-image: url("./assets/bg480.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* max-width: 480px; */
+  }
+
+  .logo {
+    width: 4em;
+    margin: 10px 20px;
+  }
+}
